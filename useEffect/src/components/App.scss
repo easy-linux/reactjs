@@ -1,0 +1,32 @@
+.box {
+    padding: 20px;
+    margin: 50px;
+    border: 2px solid #f00;
+    border-radius: 8px;
+    position: relative;
+
+    div{
+        margin: 10px;
+    }
+    
+    &.app{
+        border: 2px solid #f00;
+    }
+    &.example1{
+        border: 2px solid #00f;
+    }
+
+    .button{
+        margin-right: 10px;
+    }
+
+    .label{
+        position: absolute;
+        left: 10px;
+        top: -15px;
+        background-color: #fff;
+        padding: 5px;
+        margin: 0;
+
+    }
+}
